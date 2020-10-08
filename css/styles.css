@@ -1,0 +1,238 @@
+
+/***********************************TAGS SELCETOR*******************************************/
+
+body
+{
+
+  background-color: #ef8172;
+  font-family: montserrat-light;
+}
+
+
+h1{
+    font-family: 'Montserrat-Black';
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+/***********************************ClASS SELCETOR*******************************************/
+
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+/*NAVIGATION BAR*/
+
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.nav-item
+{
+    padding: 0 18px 0 18px;
+}
+
+
+.nav-link
+{
+    font-size:1.5rem ;
+    font-family: 'ubuntu-light';
+    font-weight: lighter;
+}
+
+/*Buttons*/
+
+
+.download-button
+{
+    margin: 6% 3% 5% 0;
+}
+
+/*title image*/
+
+#title
+{
+    color: #fff;
+    background-image: url(https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+    
+}
+
+.title-image
+{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 40%;
+}
+
+/*Feautres Section*/
+
+#features
+{
+    background-color: whitesmoke;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.features-box
+{
+    padding:5%;
+    text-align: center;
+}
+.easy
+{
+    font-family: 'Montserrat-bold';
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.icon
+{
+  color:#ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  
+}
+.para
+{
+ color: #8f8f8f;
+ font-size: 1rem;
+}
+.icon:hover{
+    color:#ff69b4;
+}
+
+
+/**testimonials**/
+
+#testimonials
+{
+
+   background-color:#ff69b4;
+   ;
+   text-align: center;
+   color:#fff;
+}
+
+.testo-text
+{
+    font-size: 3rem;
+    font-family: 'montserrat-bold';
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.testo-image
+{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.press-logo
+{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+
+
+/*Pricing Selection*/
+
+#pricing
+{
+  background-color: whitesmoke;
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+.pricing-font
+{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+/*call to action*/
+
+#cta
+{
+    background-color: #ff69b4;
+    text-align: center;
+    padding: 7% 15%;
+}
+.call
+{
+    font-family: 'Montserrat-Black';
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+/***********************************Footer Scetion*******************************************/
+
+
+#footer
+{
+    background-color: whitesmoke;
+    padding: 7% 15%;
+    text-align: center;
+}
+.foot
+{
+    color: #8f8f8f;
+    font-size: 1.5rem;
+}
+.foot-icon
+{
+    font-size: 1.5rem;
+    width: 4%;
+    margin: 2px 2px 5px;
+}
+
+/***********************************Id SELCETOR*******************************************/
+
+#press
+{
+    background-color: #ff69b4 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+/***********************************MEDIA QUERY BREAKPOINTS*******************************************/
+
+@media (max-width: 1135px) 
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
