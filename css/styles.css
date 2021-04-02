@@ -65,7 +65,9 @@ h1{
 #title
 {
     color: #fff;
-    background-image: url(https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+    background: url(../images/back-dog.jpg);
+    background-position: center;
+    background-size: cover;
     
 }
 
